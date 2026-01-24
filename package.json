@@ -1,0 +1,16 @@
+{
+  "name": "perplexity-market-api",
+  "version": "1.0.0",
+  "description": "Proxy API for Perplexity Market Summary",
+  "main": "api/market-summary.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["api", "market", "finance", "perplexity"],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.x"
+  }
+}
