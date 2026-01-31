@@ -23,7 +23,7 @@ export default async function handler(req, res) {
     const { country = 'US', ...queryParams } = req.query;
     
     // Construct the URL with query parameters
-    const baseUrl = 'https://www.perplexity.ai/rest/finance/market-summary/market';
+    const baseUrl = 'https://www.perplexity.ai/rest/finance/market-summary/market?country=US';
     const url = new URL(baseUrl);
     url.searchParams.append('country', country);
     
